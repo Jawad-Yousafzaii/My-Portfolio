@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom.css */
+html {
+    scroll-behavior: smooth;
+    font-family: 'com-bold'; /* Make sure this matches the font-family name */
+    font-family: 'com-light';
+}
+
+@font-face {
+    font-family: 'comfortaabold';
+    src: url('/public/fonts/Comfortaa-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'comfortaalight';
+    src: url('/public/fonts/Comfortaa-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
